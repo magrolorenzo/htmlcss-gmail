@@ -1,0 +1,62 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-gmail{
+    width: 1200px;
+    margin: auto;
+}
+
+.icona{
+    width:100px;
+    height:75px;
+}
+
+#titolo{
+    display: inline-block;
+    margin-top: 0%;
+}
+
+.unread-number{
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.riga{
+    border: 2px solid black;
+    background-color: grey;
+}
+
+.colonna-oggetto{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+
+.colonna-testo{
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+#footer-gmail{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
